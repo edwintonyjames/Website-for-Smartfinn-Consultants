@@ -75,6 +75,9 @@ Table of Content:
   transform-origin: left center;
   transform: scale(1, 1);
 }
+.fa-phone{
+  color: rgba(0, 0, 0, 0.6);
+}
 
 /* Tittle */
 .tittle h4 {
@@ -3005,7 +3008,8 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   padding: 40px 0;
 }
 .footer_area .footer_inner .footer_logo p a {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
 }
 .footer_area .footer_inner .footer_logo p a:hover, .footer_area .footer_inner .footer_logo p a:focus {
   color: #ff8d68;
@@ -3025,7 +3029,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   width: 51px;
   line-height: 51px;
   display: inline-block;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.6);
   font-size: 18px;
   text-align: center;
   border-radius: 50%;
