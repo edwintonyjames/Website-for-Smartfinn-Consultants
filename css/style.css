@@ -1954,7 +1954,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   color: #242425;
 }
 .blog_news_area .blog_news .blog_contant .author img {
-  border-radius: 50%;
+  border-radius: 0%;
   margin-right: 20px;
 }
 .blog_news_area .blog_news .blog_contant .author:hover {
