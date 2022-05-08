@@ -43,6 +43,9 @@ Table of Content:
 @import url(../vendors/magnify-popup/magnific-popup.css);
 @import url(../vendors/owl-carousel/owl.carousel.min.css);
 @import url("https://fonts.googleapis.com/css?family=Muli:400,600,700,800|Roboto:400,500,700");
+html{
+  scroll-behavior: smooth;
+}
 .theme_btn {
   color: #fff;
   text-align: center;
