@@ -504,6 +504,12 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .mha_2 .header_menu .navbar .navbar-brand img + img {
   display: inline-block;
+  width: auto;
+  height: 36px;
+  padding: 6px;
+  border-radius: 6px;
+  box-sizing: content-box;
+  background-color: rgba(245, 245, 245, 0.962);
 }
 .mha_2 .header_menu .navbar .navbar_supported ul li a {
   color: #fff;
