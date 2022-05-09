@@ -626,7 +626,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 .ba_2 {
   background: url(../images/banner-bg-2.png) no-repeat top left;
-  padding: 345px 0 0;
+  padding: 180px 0 0;
   position: relative;
   background-size: contain;
   z-index: 1;
@@ -637,7 +637,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .ba_2 p {
   color: #fff;
-  padding-bottom: 110px;
+  padding-bottom: 50px;
 }
 .ba_2 .theme_btn {
   background: #ff8d68;
