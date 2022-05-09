@@ -507,15 +507,17 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   width: auto;
   height: 36px;
   padding: 6px;
-  border-radius: 6px;
+  border-radius: 4px;
   box-sizing: content-box;
-  background-color: rgba(245, 245, 245, 0.962);
+  background-color: rgb(245, 245, 245);
 }
 .mha_2 .header_menu .navbar .navbar_supported ul li a {
   color: #fff;
 }
 .mha_2.navbar_fixed .navbar .navbar-brand img {
   display: inline-block;
+  width: auto;
+  height: 36px;
 }
 .mha_2.navbar_fixed .navbar .navbar-brand img + img {
   display: none;
