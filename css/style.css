@@ -484,6 +484,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   transform: translateY(70px);
   transition: transform 500ms ease, background 200ms ease;
   -webkit-transition: transform 500ms ease, background 200ms ease;
+  margin-top: -.3px;
 }
 .main_header_area.navbar_fixed .navbar .navbar_supported ul li a {
   color: #404040 !important;
@@ -510,6 +511,18 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   border-radius: 4px;
   box-sizing: content-box;
   background-color: rgb(245, 245, 245);
+}
+.footer_logo img{
+  display: inline-block;
+  width: auto;
+  height: 36px;
+}
+.mha_2b ul li a{
+  color: #000 !important;
+  background-color: transparent !important;
+}
+.logob img + img{
+  background: transparent !important;
 }
 .mha_2 .header_menu .navbar .navbar_supported ul li a {
   color: #fff;
@@ -3387,6 +3400,14 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
   .mha_4 .navbar-toggler {
     color: #242425 !important;
+    display: inline-block;
+  width: auto;
+  height: 36px;
+  padding: 6px;
+  border-radius: 4px;
+  box-sizing: content-box;
+  background-color: rgb(245, 245, 245);
+    
   }
 
   .banner_area h2, .banner_area p {
