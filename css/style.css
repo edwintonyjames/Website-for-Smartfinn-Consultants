@@ -484,6 +484,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   transform: translateY(70px);
   transition: transform 500ms ease, background 200ms ease;
   -webkit-transition: transform 500ms ease, background 200ms ease;
+  margin-top: -.3px;
 }
 .main_header_area.navbar_fixed .navbar .navbar_supported ul li a {
   color: #404040 !important;
@@ -504,12 +505,32 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .mha_2 .header_menu .navbar .navbar-brand img + img {
   display: inline-block;
+  width: auto;
+  height: 28px;
+  padding: 6px;
+  border-radius: 4px;
+  box-sizing: content-box;
+  background-color: rgb(245, 245, 245);
+}
+.footer_logo img{
+  display: inline-block;
+  width: auto;
+  height: 36px;
+}
+.mha_2b ul li a{
+  color: #000 !important;
+  background-color: transparent !important;
+}
+.logob img + img{
+  background: transparent !important;
 }
 .mha_2 .header_menu .navbar .navbar_supported ul li a {
   color: #fff;
 }
 .mha_2.navbar_fixed .navbar .navbar-brand img {
   display: inline-block;
+  width: auto;
+  height: 36px;
 }
 .mha_2.navbar_fixed .navbar .navbar-brand img + img {
   display: none;
@@ -626,7 +647,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 .ba_2 {
   background: url(../images/banner-bg-2.png) no-repeat top left;
-  padding: 345px 0 0;
+  padding: 180px 0 0;
   position: relative;
   background-size: contain;
   z-index: 1;
@@ -637,7 +658,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .ba_2 p {
   color: #fff;
-  padding-bottom: 110px;
+  padding-bottom: 50px;
 }
 .ba_2 .theme_btn {
   background: #ff8d68;
@@ -3379,6 +3400,14 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
   .mha_4 .navbar-toggler {
     color: #242425 !important;
+    display: inline-block;
+  width: auto;
+  height: 36px;
+  padding: 6px;
+  border-radius: 4px;
+  box-sizing: content-box;
+  background-color: rgb(245, 245, 245);
+    
   }
 
   .banner_area h2, .banner_area p {

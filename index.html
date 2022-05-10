@@ -11,7 +11,7 @@
     <title>SMARTFINN</title> 
     
     <!-- Theme style CSS -->       
-    <link href="css/style.css" rel="stylesheet"> 
+    <link href="css/style.css?v=1.1" rel="stylesheet"> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,22 +23,16 @@
 <body>
    
     <!-- Top Header Area -->
-    <section class="top_header_area row">
+    <section id="top_area" class="top_header_area row">
         <div class="col-xl-6 col-lg-5"> 
             <p>Effective digital marketing agencies in the world</p>
         </div>
         <div class="col-xl-6 col-lg-7"> 
             <ul class="header_social"> 
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-                <li><a href="#"><i class="fa fa-dribbble"></i></a></li> 
+                <li><a href="https://www.instagram.com/smartfinn_consultants/"><i class="fa fa-instagram"></i></a></li>
+                
                 <li><a href="#" class="phone_no">+88 01912704287</a></li> 
-                <li class="search_here">
-                    <i class="fa fa-search"></i>
-                    <input type="text" class="form-control" placeholder="">
-                </li> 
+             
             </ul>
         </div>
     </section>
@@ -49,9 +43,9 @@
        <div class="container">
             <div class="header_menu"> 
                 <nav class="navbar navbar-expand-lg"> 
-                    <a class="navbar-brand" href="index-2.html">
+                    <a class="navbar-brand" href="index.html">
                         <img src="images/logo.png" alt="">
-                        <img src="images/footer-logo.png" alt="">
+                        <img src="images/logo.png" alt="">
                     </a> 
                     <!-- Small Divice Menu-->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar_supported"  aria-expanded="false" aria-label="Toggle navigation"> 
@@ -60,7 +54,7 @@
 
                     <div class="collapse navbar-collapse navbar_supported">
                         <ul class="navbar-nav"> 
-                            <li><a>Home</a></li>
+                            <li><a href="#top_area">Home</a></li>
                             <li><a href="#aboutus">About</a></li>
                             <li class="dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Services</a>
@@ -80,25 +74,25 @@
     
       
     <!-- Banner Area -->   
-    <section class="banner_area ba_2 ba_3" id="parallax">  
+    <section  class="banner_area ba_2 ba_3" id="parallax">  
         <div class="container">
             <h2 class="wow fadeInUp"><br>Management and Financial Consultants</h2>
             <p class="wow fadeInUp" data-wow-delay="0.3s">Smartfinn offer innovative solutions to businesses on varieties of issues</p>
-            <a href="#" class="theme_btn wow fadeInUp" data-wow-delay="0.5s">Get Started</a>
+            <a href="#agencyarea" class="theme_btn wow fadeInUp" data-wow-delay="0.5s">Get Started</a>
         </div> 
         <img src="images/banner-shap-2.png" alt="" class="layer banner_bg" data-depth="0.35"> 
     </section>
     <!-- End Banner Area --> 
     
     <!-- Creative Agency Area -->  
-    <section class="agency_area agency_3">
+    <section id="agencyarea" class="agency_area agency_3" >
         <div class="container">
           
             <h4>Innovative solutions to your business</h4>
             <h2>We Are An Agency that Focuses on providing solution to the managament of business </h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6 wow fadeInUp">
-                    <div class="agency active">
+                    <div class="agency">
                         <i class="flaticon-checked"></i>
                         <a href="#">Value Added Quality Services</a>
                         <p>Business growth. The process of improving some measure of an enterprise's success. Business growth </p>
@@ -145,7 +139,7 @@
     <!-- End About Agency Area --> 
      
     <!-- Our Services provided Area -->  
-    <section class="services_provided row">
+    <section class="services_provided row" id="services">
         <div class="col-lg-5 provided_img p-0">
             <img src="images/provided.png" alt="">
         </div>
@@ -159,7 +153,7 @@
                         <img src="images/icons/box.png" alt="">
                     </div>
                     <div class="media-body">
-                        <a href="#">Consulting</a>
+                        <a href="services.html">Consulting</a>
                         <p>
                             Consultants help business owners    
                             and entrepreneurs develop the business 
@@ -173,7 +167,7 @@
                         <img src="images/icons/star.png" alt="">
                     </div>
                     <div class="media-body">
-                        <a href="#">Auditing</a>
+                        <a href="services-2.html">Auditing</a>
                         <p>
                                 We provide comprehensive services to support your business porviding extensive guidance and expert insights across
                                 the areas of accounts , audit ,taxaton
@@ -185,7 +179,7 @@
                         <img src="images/icons/plan.png" alt="">
                     </div>
                     <div class="media-body">
-                        <a href="#">Assurane</a>
+                        <a href="services-2.html">Assurane</a>
                         <p>We provide assurance depending on the organization's ability to survive and achieve its goals ultimately on its capacity to keep risks under control, to maintain compliance with ongoing regulations and to exercise effective governance.</p>
                     </div>
                 </div>
@@ -226,7 +220,7 @@
     <!-- End Countarup Area -->
      
     <!-- Blog and News Area --> 
-    <section class="blog_news_area bna_2"> 
+    <section class="blog_news_area bna_2" id="business"> 
           <div class="row">
               <div class="col-xl-6 news_left_text"> 
                    <div class="tittle">
@@ -279,7 +273,7 @@
                                 <div class="blog_contant">
                                     <a href="blog-single.html" class="heding">Tracking is an organized approach used by the business analysts to address the stakeholder concerns. The stakeholders identify the item types such as actions, assumptions, constraints, dependencies, defects, enhancements, and issues</a> 
                                     <a href="#" class="author"><img src="images/blog/author-5.svg" alt="">
-                                        <span>TRACKING</span>
+                                        <span>TRACKING</span> </a>
                                 </div>
                             </div>
                         </div>   
@@ -310,48 +304,44 @@
            </div>
             <div class="footer_inner row"> 
                 <div class="col-lg-4 col-sm-6 footer_logo wow fadeIn">
-                    <a href="index-2.html">
+                    <a href="index.html">
                         <img src="images/logo.png" alt="">
-                        <img src="images/footer-logo.png" alt="">
+                        <img src="images/logo.png" alt="">
                     </a> 
-                    <p>© 2018 <a href="#">Template_mr</a>. All rights reserved</p> 
+
+                    
                     <ul class="footer_social"> 
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li> 
+                        <p> <a href="tel:+91 94471 79070" class=""><i class="fa fa-lg fa-phone" aria-hidden="true"></i> +91 94471 79070 </a><br>
+                            <a href="tel:+91 62826 6120" class=""><i class="fa fa-lg fa-phone" aria-hidden="true"></i> +91 62826 61201 </a>
+                        </p> 
+                        
+                        <li><a href="https://www.instagram.com/smartfinn_consultants/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:smartfinnkerala@gmail.com"><i class="fa fa-envelope"></i></a></li> 
                     </ul>
                 </div>
                 <div class="footer_widget fw_1 col-lg-2 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                     <h4>About</h4>
                     <ul class="footer_nav"> 
-                        <li><a href="#">How it works</a></li>
-                        <li><a href="#">Guarantee</a></li>
-                        <li><a href="#">Security</a></li>
+                        <li><a href="#services">Services</a></li>
+                        
                     </ul>
                 </div>  
-                <div class="footer_widget col-lg-2 col-sm-4 wow fadeIn" data-wow-delay="0.4s">
-                    <h4>Agency</h4>
-                    <ul class="footer_nav"> 
-                        <li><a href="#">Google app</a></li>
-                        <li><a href="#">Apps store</a></li>
-                        <li><a href="about.html">About</a></li>
-                    </ul>
-                </div>   
-                <div class="footer_widget col-lg-2 col-sm-4 wow fadeIn" data-wow-delay="0.6s">
-                    <h4>Need help?</h4>
-                    <ul class="footer_nav"> 
-                        <li><a href="#">Find a job</a></li>
-                        <li><a href="#">App store</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                    </ul>
-                </div>   
+             
+               
                 <div class="footer_widget col-lg-2 col-sm-4 wow fadeIn" data-wow-delay="0.8s">
                     <h4>Links</h4>
                     <ul class="footer_nav"> 
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#">apps</a></li>
+                        <li><a href="#business ">Business Advisory</a></li>
+                    
+                        <li><a href="#contact">Contact US</a></li>
+                    </ul>
+                </div>   
+                <div class="footer_widget col-lg-2 col-sm-4 wow fadeIn" data-wow-delay="0.8s">
+                    <h4>Services</h4>
+                    <ul class="footer_nav"> 
+                        <li><a href="services.html">Consulting Services</a></li>
+                        <li><a href="services-2.html">Assurance and Auditing Services</a></li>
+                        
                     </ul>
                 </div>   
             </div>
