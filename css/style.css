@@ -133,6 +133,7 @@ body ul li {
 body section.row, body header.row, body footer.row {
   margin: 0;
 }
+
 body #success {
   display: none;
 }
@@ -3988,6 +3989,9 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   .blog_area .blog_list .heding {
     font-size: 20px;
     line-height: 30px;
+  }
+  .row2{
+   align-items: center;
   }
 }
 /*----------------------------------------------------*/
