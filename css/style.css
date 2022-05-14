@@ -585,7 +585,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .top_header_area .header_social li .phone_no {
   color: rgba(116, 116, 116, 0.6);
-  font: 600 23px/70px "Muli", sans-serif;
+  font: 600 20px/70px "Muli", sans-serif;
   display: inline-block;
   border: 1px solid #f2f2f2;
   padding: 0 22px;
