@@ -47,17 +47,32 @@ html{
   scroll-behavior: smooth;
 }
 .theme_btn {
-  color: #fff;
-  text-align: center;
-  font: 600 20px/60px "Muli", sans-serif;
+  color: #fff !important;
+  text-align: center !important;
+  font: 600 20px/60px "Muli", sans-serif !important;
   display: inline-block;
-  padding: 0 20px;
-  position: relative;
-  background: #2e91fc;
-  overflow: hidden;
-  border-radius: 39px;
-  z-index: 1;
+  padding: 0 35px !important;
+  position: relative !important;
+  background: #2e91fc !important;
+  overflow: hidden !important;
+  border-radius: 39px !important;
+  z-index: 1 !important;
+  border: none;
 }
+.form-selectc{
+  border-radius: 30px !important;
+  box-shadow: none;
+  outline: none;
+  padding: 0 35px;
+  font: 400 16px/58px "Muli", sans-serif;
+  color: rgba(0, 0, 0, 0.702);
+  height: auto;
+  border: 1px solid #e8e7e7;
+  margin-bottom: 20px;
+  line-height: 30px !important;
+  width: fit-content !important;
+}
+
 .theme_btn:before {
   content: "";
   position: absolute;
