@@ -295,7 +295,7 @@
            
            <div class="email_us" id="contact"  >
             <h2>Contact US</h2>
-                <form flase" method="POST" action="https://script.google.com/macros/s/AKfycbx9aIjOo0UZuO2x9j-qUU0unX6pLFmO2asfM4-AmMNNgwqt-6t8u4eebHh3CKE3e3yKmw/exec">
+                <form id="contact-form-google" >
                 <div class="input-group row justify-content-center">
                    <div class="col-lg-5 col-md-6">
                        
@@ -322,6 +322,7 @@
                     <center>
                             <label for="services">How can we help:</label>
                             <select class="form-select form-select-lg form-selectc" name="Request Of Service" id="services">
+                            <option value="placeholder" disabled>Select A Service</option>
                             <option value="audit">Audit and Assurance Services</option>
                             <option value="tax">Taxation Service</option>
                             <option value="corporate">Corporate Services</option>
@@ -336,7 +337,7 @@
             <br>
                          
                         <div class="input-group-prepend justify-content-center">
-                           <button class="input-group-text theme_btn" type="submit">Send</button>
+                           <button onclick="myFunction()" class="input-group-text theme_btn" type="submit">Send</button>
                         </div>
                    
                    
@@ -417,4 +418,37 @@
       
     <!-- Theme js / Custom js -->
     <script src="js/theme.js"></script> 
+    <script type="text/javascript">
+        $('#contact-form-google').submit(function(e){
+            e.preventDefault();
+            var formData = $('#contact-form-google').serialize();
+            $.ajax({
+                  type        : 'POST', 
+                  url         : 'https://script.google.com/macros/s/AKfycbx9aIjOo0UZuO2x9j-qUU0unX6pLFmO2asfM4-AmMNNgwqt-6t8u4eebHh3CKE3e3yKmw/exec',
+                  data        : formData, 
+                  dataType    : 'json',
+                  encode      : true
+             }).done(function(data) {
+                  if(data.result == 'success') {
+                    // Form submission was successful and accepted by google. 
+                    // You can show your success message here
+      
+                  } else {
+                     // Form was submission failed for some reasons.
+                     // You can examine the response from google to see whats missing
+      
+                  }
+             }).fail(function (jqXHR,status,err) {
+                  // Form submission failed due to some network or other errors
+                  // I am alerting the error but you can do anything else with it     
+                  alert(err);
+             });
+        });
+      </script>
+    <script>
+        function myFunction() {
+  alert("Submitted Successfully");
+}
+    </script> 
+      
 </body>

@@ -71,6 +71,7 @@ html{
   margin-bottom: 20px;
   line-height: 30px !important;
   width: fit-content !important;
+  font-size: unset !important;
 }
 
 .theme_btn:before {
