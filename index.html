@@ -337,7 +337,7 @@
             <br>
                          
                         <div class="input-group-prepend justify-content-center">
-                           <button onclick="myFunction()" class="input-group-text theme_btn" type="submit">Send</button>
+                           <button class="input-group-text theme_btn" type="submit">Send</button>
                         </div>
                    
                    
@@ -432,10 +432,12 @@
                   if(data.result == 'success') {
                     // Form submission was successful and accepted by google. 
                     // You can show your success message here
+                    alert('Submitted Successfully')
       
                   } else {
                      // Form was submission failed for some reasons.
                      // You can examine the response from google to see whats missing
+                     alert('Error Submitting Form')
       
                   }
              }).fail(function (jqXHR,status,err) {
@@ -445,10 +447,5 @@
              });
         });
       </script>
-    <script>
-        function myFunction() {
-  alert("Submitted Successfully");
-}
-    </script> 
       
 </body>
