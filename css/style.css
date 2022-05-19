@@ -46,6 +46,9 @@ Table of Content:
 html{
   scroll-behavior: smooth;
 }
+a{
+  text-decoration: none!important;
+}
 .theme_btn {
   color: #fff !important;
   text-align: center !important;
