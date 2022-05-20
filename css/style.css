@@ -46,18 +46,37 @@ Table of Content:
 html{
   scroll-behavior: smooth;
 }
-.theme_btn {
-  color: #fff;
-  text-align: center;
-  font: 600 20px/60px "Muli", sans-serif;
-  display: inline-block;
-  padding: 0 20px;
-  position: relative;
-  background: #2e91fc;
-  overflow: hidden;
-  border-radius: 39px;
-  z-index: 1;
+a{
+  text-decoration: none!important;
 }
+.theme_btn {
+  color: #fff !important;
+  text-align: center !important;
+  font: 600 20px/60px "Muli", sans-serif !important;
+  display: inline-block;
+  padding: 0 35px !important;
+  position: relative !important;
+  background: #2e91fc !important;
+  overflow: hidden !important;
+  border-radius: 39px !important;
+  z-index: 1 !important;
+  border: none;
+}
+.form-selectc{
+  border-radius: 30px !important;
+  box-shadow: none;
+  outline: none;
+  padding: 0 35px;
+  font: 400 16px/58px "Muli", sans-serif;
+  color: rgba(0, 0, 0, 0.702);
+  height: auto;
+  border: 1px solid #e8e7e7;
+  margin-bottom: 20px;
+  line-height: 30px !important;
+  width: fit-content !important;
+  font-size: unset !important;
+}
+
 .theme_btn:before {
   content: "";
   position: absolute;
@@ -3100,24 +3119,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   background: #ce8506;
 }
 
-.scroll-top2 {
-  position: fixed;
-  right: 30px;
-  bottom: 15px;
-  height: 70px;
-  width: 50px;
-  cursor: pointer;
-  background: #2e91fc;
-  border: 0;
-  box-shadow: none;
-  z-index: 999;
-  color: #fff;
-  display: none;
-}
-.scroll-top2:hover2, .scroll-top2:focus {
-  background: #ce8506;
-}
-
 /*----------------------------------------------------*/
 @media (max-width: 1730px) {
   .top_header_area .header_social .search_here {
@@ -4011,24 +4012,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   .row2{
    align-items: center;
   }
-}
-.floatwhatsapp{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-
-.my-floatwhatsapp{
-	margin-top:16px;
 }
 /*----------------------------------------------------*/
 /*All CSS call*/
